@@ -67,7 +67,6 @@ services:
       - JMX_EXPORTER_ENABLE=yes
       - JMX_EXPORTER_PORT=9101
       - JMX_EXPORTER_CONFIG=/etc/jmx-exporter.yml
-      - KAFKAJS_NO_PARTITIONER_WARNING=1
     depends_on:
       - zookeeper
 
