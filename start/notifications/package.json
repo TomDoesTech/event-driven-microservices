@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "fastify": "^4.10.2",
+    "kafkajs": "^2.2.3",
+    "mongoose": "^6.7.5",
+    "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "json-schema-to-ts": "^2.6.2",
+    "tsx": "^3.12.1",
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "dev": "tsx watch src/app.ts"
+  }
+}
